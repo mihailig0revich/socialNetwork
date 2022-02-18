@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9aaddca9.chunk.css",
+    "main.js": "/static/js/main.afba35c8.chunk.js",
+    "main.js.map": "/static/js/main.afba35c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.970eacc0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.970eacc0.js.map",
+    "static/js/2.c14ad55d.chunk.js": "/static/js/2.c14ad55d.chunk.js",
+    "static/js/2.c14ad55d.chunk.js.map": "/static/js/2.c14ad55d.chunk.js.map",
+    "static/js/3.79282686.chunk.js": "/static/js/3.79282686.chunk.js",
+    "static/js/3.79282686.chunk.js.map": "/static/js/3.79282686.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.9aaddca9.chunk.css.map": "/static/css/main.9aaddca9.chunk.css.map",
+    "static/js/2.c14ad55d.chunk.js.LICENSE.txt": "/static/js/2.c14ad55d.chunk.js.LICENSE.txt",
+    "static/media/Walk.84fed2e4.gif": "/static/media/Walk.84fed2e4.gif",
+    "static/media/heatter.cc38c3a0.jpg": "/static/media/heatter.cc38c3a0.jpg",
+    "static/media/loader.70ef5a99.svg": "/static/media/loader.70ef5a99.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.970eacc0.js",
+    "static/js/2.c14ad55d.chunk.js",
+    "static/css/main.9aaddca9.chunk.css",
+    "static/js/main.afba35c8.chunk.js"
+  ]
+}

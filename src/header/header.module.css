@@ -1,0 +1,17 @@
+.header {
+    border-radius: 10px;
+    background-color: #a166ff;
+    grid-area: header;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    margin: 0 20px 0 0;
+}
+
+.headerTitle {
+    margin: 0 0 0 180px;
+}

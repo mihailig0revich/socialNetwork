@@ -1,0 +1,19 @@
+.buttonStyle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 0 8px;
+    color: white;
+    background-color: #a166ff;
+    border: 1px solid #a166ff;
+    border-radius: 5px;
+    height: 20px;
+    transition: .3s;
+    height: 30px;
+}
+
+.buttonStyle:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}

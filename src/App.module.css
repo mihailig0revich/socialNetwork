@@ -1,0 +1,24 @@
+.app {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "sidebar content content";
+    grid-template-rows: 40px min-content;
+    grid-template-columns: 170px 1fr 1fr;
+    grid-gap: 10px;
+}
+
+body {
+  --green: green;
+}
+
+body[data-theme='purple'] {
+  --color: #a166ff;
+}
+
+body[data-theme='black'] {
+  --color: black
+}

@@ -1,0 +1,189 @@
+.content {
+  border-radius: 10px;
+  grid-area: content;
+}
+
+.profileHitter {
+  width: 100%;
+  height: 100%;
+  grid-area: hitter;
+  border-radius: 10px;
+}
+
+.userAvatar {
+  width: 120px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+.avatarWrapper {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  grid-area: avatar;
+  
+}
+
+.avatarWrapper input{
+  visibility: hidden;
+  width: 0.1px;
+	height: 0.1px;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.customInput {
+  box-sizing: border-box;
+  border: 1px solid #a166ff;
+  background: #a166ff;
+  color: white;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.customInput:hover {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+.firstAbout {
+  width: 200px;
+  max-height: 130px;
+  padding: 10px 0 0 10px;
+  border: 2px solid #a166ff;
+  border-radius: 10px;
+}
+
+.secondAbout {
+  width: 300px;
+  overflow: hidden;
+}
+
+.secondAbout ul {
+  padding: 0;
+}
+
+.aboutWrapper {
+  margin: 0 0 20px 0;
+  border: 2px solid #a166ff;
+  border-radius: 10px;
+}
+
+.aboutWrapper li {
+  margin: 10px;
+}
+
+.aboutUser {
+  margin: 10px 0 0 0;
+  grid-area: about;
+  display: flex;
+  justify-content: space-between;
+}
+
+.posts {
+  grid-area: posts;
+}
+
+.posts h3 {
+  margin-left: 20px;
+}
+
+.textAreaInput {
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 5px 10px;
+  border: 2px solid #a166ff;
+  width: 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-areas: 
+    "hitter hitter hitter"
+    "avatar about about"
+    "posts posts posts";
+  grid-template-rows: 110px min-content min-content;
+  grid-template-columns: 150px 1fr 1fr;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.writePost  textarea {
+  width: 100%;
+  height: 60px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+.writePost div {
+  width: 100%;
+}
+
+.buttonBox{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttonBox button {
+  margin: 10px 0 10px 0;
+}
+
+.writePost {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  width: 100%;
+  border: 2px solid #a166ff;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: coral;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customStatus {
+  margin: 0 0 0 10px;
+  color: #a166ff;
+  font-size: 18px;
+}

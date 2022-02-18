@@ -1,0 +1,73 @@
+.sideBar{
+    grid-area: sidebar;
+    height: 500px;
+}
+
+.sideBar ul {
+    margin: 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+.menu li {
+    margin: 0;
+    width: 100%;
+}
+
+.menu li:last-child {
+    margin-top: 30px;
+}
+
+.navElement {
+    border-radius: 10px;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    background-color: #a166ff;
+    margin: 0 0 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #a166ff;
+    transition: background-color .3s;
+}
+
+.navElement:hover {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+    
+}
+
+.navElement .sideButton {
+    color: white;
+    text-align: center;
+    width: 100%;
+    transition: color .3s;
+}
+
+.navElement:hover .sideButton{
+    color: black;
+}
+
+.sideButton:hover {
+    text-align: center;
+}
+
+.navElement:visited {
+    color: black;
+}
+
+.userList {
+    margin-top: 50px;
+}
+
+.login {
+    margin-left: 40px;
+    margin-top: 40px;
+}
